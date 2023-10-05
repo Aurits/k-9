@@ -79,7 +79,7 @@ private fun WelcomeLogo(
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Image(
-            painter = painterResource(id = R.drawable.onboarding_welcome_logo),
+            painter = painterResource(id = R.drawable.logo),
             contentDescription = null,
         )
     }

@@ -46,10 +46,10 @@ fun AppTitleTopHeader(
             horizontalArrangement = Arrangement.Center,
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Image(
-                painter = painterResource(id = MainTheme.images.logo),
-                contentDescription = null,
-            )
+//            Image(
+//                painter = painterResource(id = MainTheme.images.logo),
+//                contentDescription = null,
+//            )
 
             TextHeadline2(
                 text = buildAnnotatedString {
