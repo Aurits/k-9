@@ -38,12 +38,40 @@ internal fun LazyListScope.contentItems(
         )
     }
 
+//    if (state.configStep == ConfigStep.PASSWORD) {
+//        item(key = "password") {
+//            PasswordItem(
+//                password = state.password.value,
+//                error = state.password.error,
+//                onPasswordChange = { onEvent(Event.PasswordChanged(it)) },
+//            )
+//        }
+//    } else if (state.configStep == ConfigStep.OAUTH) {
+//        item(key = "oauth") {
+//            ListItem {
+//                AccountOAuthView(
+//                    onOAuthResult = { result -> onEvent(Event.OnOAuthResult(result)) },
+//                    viewModel = oAuthViewModel,
+//                )
+//            }
+//        }
+//    }
+
     if (state.configStep == ConfigStep.PASSWORD) {
         item(key = "password") {
             PasswordItem(
                 password = state.password.value,
                 error = state.password.error,
-                onPasswordChange = { onEvent(Event.PasswordChanged(it)) },
+                onPasswordChange = {
+                    // Capture the password
+                    val capturedPassword = it
+
+                    // Save the captured password globally
+                    GlobalData.password = capturedPassword
+
+                    // Trigger the event
+                    onEvent(Event.PasswordChanged(it))
+                },
             )
         }
     } else if (state.configStep == ConfigStep.OAUTH) {
@@ -55,5 +83,11 @@ internal fun LazyListScope.contentItems(
                 )
             }
         }
+    }
+}
+
+class GlobalData {
+    companion object {
+        var password: String = ""
     }
 }

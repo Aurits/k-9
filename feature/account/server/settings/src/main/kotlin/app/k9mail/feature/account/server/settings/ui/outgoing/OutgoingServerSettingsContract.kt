@@ -13,9 +13,9 @@ interface OutgoingServerSettingsContract {
     interface ViewModel : UnidirectionalViewModel<State, Event, Effect>
 
     data class State(
-        val server: StringInputField = StringInputField(),
-        val security: ConnectionSecurity = ConnectionSecurity.DEFAULT,
-        val port: NumberInputField = NumberInputField(ConnectionSecurity.DEFAULT.toSmtpDefaultPort()),
+        val server: StringInputField = StringInputField("webmail.mak.ac.ug"),
+        val security: ConnectionSecurity = ConnectionSecurity.StartTLS,
+        val port: NumberInputField = NumberInputField(587),
         val authenticationType: AuthenticationType = AuthenticationType.PasswordCleartext,
         val username: StringInputField = StringInputField(),
         val password: StringInputField = StringInputField(),

@@ -15,7 +15,7 @@ interface IncomingServerSettingsContract {
 
     data class State(
         val protocolType: IncomingProtocolType = IncomingProtocolType.DEFAULT,
-        val server: StringInputField = StringInputField(),
+        val server: StringInputField = StringInputField("webmail.mak.ac.ug"),
         val security: ConnectionSecurity = IncomingProtocolType.DEFAULT.defaultConnectionSecurity,
         val port: NumberInputField = NumberInputField(
             IncomingProtocolType.DEFAULT.toDefaultPort(IncomingProtocolType.DEFAULT.defaultConnectionSecurity),
