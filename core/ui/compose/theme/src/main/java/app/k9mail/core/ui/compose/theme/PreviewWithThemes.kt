@@ -40,7 +40,7 @@ private fun PreviewHeader(
     themeName: String,
 ) {
     Surface(
-        color = Color.Cyan,
+        color = Color.Green,
     ) {
         Text(
             text = themeName,

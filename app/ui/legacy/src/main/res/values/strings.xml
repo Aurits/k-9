@@ -808,10 +808,10 @@
 
     <string name="volume_navigation_title">Volume key navigation in message view</string>
 
-    <string name="show_unified_inbox_title">Show Unified Inbox</string>
+    <string name="show_unified_inbox_title">Show Webmail Inbox</string>
     <string name="show_starred_count_title">Show starred count</string>
 
-    <string name="integrated_inbox_title">Unified Inbox</string>
+    <string name="integrated_inbox_title">Webmail Inbox</string>
     <string name="integrated_inbox_detail">All messages in unified folders</string>
 
     <string name="folder_settings_include_in_integrated_inbox_label">Unify</string>
@@ -948,7 +948,7 @@
     <string name="unread_widget_select_account">Show unread count for…</string>
     <string name="unread_widget_account_title">Account</string>
     <string name="unread_widget_account_summary">The account for which the unread count should be displayed</string>
-    <string name="unread_widget_unified_inbox_account_summary">Unified Inbox</string>
+    <string name="unread_widget_unified_inbox_account_summary">Webmail Inbox</string>
     <string name="unread_widget_folder_enabled_title">Folder count</string>
     <string name="unread_widget_folder_enabled_summary">Display the unread count of only a single folder</string>
     <string name="unread_widget_folder_title">Folder</string>
