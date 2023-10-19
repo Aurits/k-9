@@ -7,6 +7,8 @@ import app.k9mail.feature.account.common.ui.WizardNavigationBarState
 
 interface AccountOAuthContract {
 
+
+
     interface ViewModel : UnidirectionalViewModel<State, Event, Effect> {
         fun initState(state: State)
     }
@@ -52,3 +54,8 @@ interface AccountOAuthContract {
         data class Unknown(val error: Exception) : Error
     }
 }
+
+
+
+
+

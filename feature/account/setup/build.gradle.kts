@@ -32,6 +32,9 @@ dependencies {
     implementation(projects.feature.account.server.settings)
     implementation(projects.feature.account.server.certificate)
     api(projects.feature.account.server.validation)
+    implementation(project(mapOf("path" to ":feature:autodiscovery:autoconfig")))
+    implementation(project(mapOf("path" to ":app:core")))
+    implementation(project(mapOf("path" to ":app:core")))
 
     testImplementation(projects.core.ui.compose.testing)
 }

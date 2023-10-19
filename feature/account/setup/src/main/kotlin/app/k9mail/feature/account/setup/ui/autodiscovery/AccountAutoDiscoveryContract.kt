@@ -23,6 +23,7 @@ interface AccountAutoDiscoveryContract {
         fun initState(state: State)
     }
 
+
     data class State(
         val configStep: ConfigStep = ConfigStep.EMAIL_ADDRESS,
         val emailAddress: StringInputField = StringInputField(),
@@ -67,3 +68,7 @@ interface AccountAutoDiscoveryContract {
         object UnknownError : Error
     }
 }
+
+
+
+

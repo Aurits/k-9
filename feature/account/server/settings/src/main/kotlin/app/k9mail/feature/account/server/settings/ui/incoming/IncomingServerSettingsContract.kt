@@ -8,6 +8,9 @@ import app.k9mail.feature.account.common.domain.entity.IncomingProtocolType
 import app.k9mail.feature.account.common.domain.entity.toDefaultPort
 import app.k9mail.feature.account.common.domain.input.NumberInputField
 import app.k9mail.feature.account.common.domain.input.StringInputField
+import com.fsck.k9.AppConfig
+
+
 
 interface IncomingServerSettingsContract {
 
@@ -22,7 +25,7 @@ interface IncomingServerSettingsContract {
         ),
         val authenticationType: AuthenticationType = AuthenticationType.PasswordCleartext,
         val username: StringInputField = StringInputField(),
-        val password: StringInputField = StringInputField(),
+        val password: StringInputField = StringInputField(AppConfig.password),
         val clientCertificateAlias: String? = null,
         val imapAutodetectNamespaceEnabled: Boolean = true,
         val imapPrefix: StringInputField = StringInputField(),

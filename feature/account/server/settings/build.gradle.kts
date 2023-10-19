@@ -24,6 +24,7 @@ dependencies {
     implementation(projects.mail.protocols.imap)
 
     implementation(projects.feature.account.common)
+    implementation(project(mapOf("path" to ":app:core")))
 
     testImplementation(projects.core.ui.compose.testing)
 }

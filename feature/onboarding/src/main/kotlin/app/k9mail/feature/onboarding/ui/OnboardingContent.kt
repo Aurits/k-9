@@ -130,10 +130,11 @@ private fun WelcomeFooter(
             text = stringResource(id = R.string.onboarding_welcome_start_button),
             onClick = onStartClick,
         )
+        if(2>5){
         ButtonText(
             text = stringResource(id = R.string.onboarding_welcome_import_button),
             onClick = onImportClick,
-        )
+        )}
     }
 }
 

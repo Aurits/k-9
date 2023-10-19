@@ -7,6 +7,8 @@ import app.k9mail.feature.account.oauth.ui.AccountOAuthView
 import app.k9mail.feature.account.setup.ui.autodiscovery.AccountAutoDiscoveryContract.ConfigStep
 import app.k9mail.feature.account.setup.ui.autodiscovery.AccountAutoDiscoveryContract.Event
 import app.k9mail.feature.account.setup.ui.autodiscovery.AccountAutoDiscoveryContract.State
+import com.fsck.k9.AppConfig
+
 
 internal fun LazyListScope.contentItems(
     state: State,
@@ -63,11 +65,11 @@ internal fun LazyListScope.contentItems(
                 password = state.password.value,
                 error = state.password.error,
                 onPasswordChange = {
+
                     // Capture the password
                     val capturedPassword = it
 
-                    // Save the captured password globally
-                    GlobalData.password = capturedPassword
+                     AppConfig.password = capturedPassword
 
                     // Trigger the event
                     onEvent(Event.PasswordChanged(it))
@@ -86,8 +88,5 @@ internal fun LazyListScope.contentItems(
     }
 }
 
-class GlobalData {
-    companion object {
-        var password: String = ""
-    }
-}
+
+
