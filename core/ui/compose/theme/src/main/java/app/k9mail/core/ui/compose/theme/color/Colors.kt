@@ -28,8 +28,8 @@ data class Colors(
 
 @Suppress("LongParameterList")
 internal fun lightColors(
-    primary: Color = MaterialColor.deep_purple_600,
-    primaryVariant: Color = MaterialColor.deep_purple_900,
+    primary: Color = MaterialColor.green_600,
+    primaryVariant: Color = MaterialColor.green_900,
     secondary: Color = MaterialColor.cyan_600,
     secondaryVariant: Color = MaterialColor.cyan_800,
     background: Color = Color.White,
@@ -66,7 +66,7 @@ internal fun lightColors(
 
 @Suppress("LongParameterList")
 internal fun darkColors(
-    primary: Color = MaterialColor.deep_purple_200,
+    primary: Color = MaterialColor.green_400,
     primaryVariant: Color = MaterialColor.deep_purple_50,
     secondary: Color = MaterialColor.cyan_300,
     secondaryVariant: Color = secondary,

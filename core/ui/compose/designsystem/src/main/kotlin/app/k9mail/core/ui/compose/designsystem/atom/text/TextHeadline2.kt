@@ -42,7 +42,7 @@ fun TextHeadline2(
         modifier = modifier,
         color = color,
         textAlign = textAlign,
-        style = MainTheme.typography.h2,
+        style = MainTheme.typography.h5,
     )
 }
 

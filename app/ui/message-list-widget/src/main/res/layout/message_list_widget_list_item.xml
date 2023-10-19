@@ -11,7 +11,7 @@
         android:id="@+id/chip"
         android:layout_width="8dip"
         android:layout_height="match_parent"
-        tools:background="#0099CC"
+        tools:background="#18A74E"
         android:visibility="visible" />
 
     <RelativeLayout

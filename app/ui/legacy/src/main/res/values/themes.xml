@@ -16,8 +16,8 @@
 
         <item name="colorPrimary">@color/material_gray_800</item>
         <item name="colorPrimaryVariant">@color/material_gray_700</item>
-        <item name="colorSecondary">@color/material_pink_500</item>
-        <item name="colorSecondaryVariant">@color/material_pink_300</item>
+        <item name="colorSecondary">@color/material_red_500</item>
+        <item name="colorSecondaryVariant">@color/material_red_300</item>
         <item name="colorOnSecondary">#ffffff</item>
         <item name="messageHeaderBackground">@color/material_gray_200</item>
         <item name="extraMessageHeaderBackground">@color/material_gray_100</item>
@@ -112,10 +112,10 @@
         <item name="messageListSwipeIconTint">#ffffff</item>
         <item name="messageListSwipeDisabledBackgroundColor">@color/material_gray_200</item>
         <item name="messageListSwipeSelectIcon">@drawable/ic_check_circle</item>
-        <item name="messageListSwipeSelectBackgroundColor">@color/material_blue_600</item>
+        <item name="messageListSwipeSelectBackgroundColor">@color/material_green_600</item>
         <item name="messageListSwipeMarkAsReadIcon">?attr/iconActionMarkAsRead</item>
         <item name="messageListSwipeMarkAsUnreadIcon">?attr/iconActionMarkAsUnread</item>
-        <item name="messageListSwipeToggleReadBackgroundColor">@color/material_blue_600</item>
+        <item name="messageListSwipeToggleReadBackgroundColor">@color/material_green_600</item>
         <item name="messageListSwipeAddStarIcon">?attr/iconActionFlag</item>
         <item name="messageListSwipeRemoveStarIcon">?attr/iconActionUnflag</item>
         <item name="messageListSwipeToggleStarBackgroundColor">@color/material_orange_600</item>
@@ -156,7 +156,7 @@
         <item name="openpgp_orange">#FF8800</item>
         <item name="openpgp_red">#CC0000</item>
         <item name="openpgp_green">#669900</item>
-        <item name="openpgp_blue">#336699</item>
+        <item name="openpgp_blue">#669900</item>
         <item name="openpgp_grey">#bbb</item>
         <item name="openpgp_dark_grey">#888</item>
 
@@ -183,8 +183,8 @@
 
         <item name="colorPrimary">@color/material_gray_100</item>
         <item name="colorPrimaryVariant">@color/material_gray_50</item>
-        <item name="colorSecondary">@color/material_pink_300</item>
-        <item name="colorSecondaryVariant">@color/material_pink_500</item>
+        <item name="colorSecondary">@color/material_red_300</item>
+        <item name="colorSecondaryVariant">@color/material_red_500</item>
         <item name="messageHeaderBackground">@color/material_gray_900</item>
         <item name="extraMessageHeaderBackground">@color/material_gray_900</item>
         <item name="bottomBarBackground">@color/material_gray_900</item>
@@ -278,10 +278,10 @@
         <item name="messageListSwipeIconTint">#ffffff</item>
         <item name="messageListSwipeDisabledBackgroundColor">@color/material_gray_900</item>
         <item name="messageListSwipeSelectIcon">@drawable/ic_check_circle</item>
-        <item name="messageListSwipeSelectBackgroundColor">@color/material_blue_700</item>
+        <item name="messageListSwipeSelectBackgroundColor">@color/material_green_700</item>
         <item name="messageListSwipeMarkAsReadIcon">?attr/iconActionMarkAsRead</item>
         <item name="messageListSwipeMarkAsUnreadIcon">?attr/iconActionMarkAsUnread</item>
-        <item name="messageListSwipeToggleReadBackgroundColor">@color/material_blue_700</item>
+        <item name="messageListSwipeToggleReadBackgroundColor">@color/material_green_700</item>
         <item name="messageListSwipeAddStarIcon">?attr/iconActionFlag</item>
         <item name="messageListSwipeRemoveStarIcon">?attr/iconActionUnflag</item>
         <item name="messageListSwipeToggleStarBackgroundColor">@color/material_orange_700</item>

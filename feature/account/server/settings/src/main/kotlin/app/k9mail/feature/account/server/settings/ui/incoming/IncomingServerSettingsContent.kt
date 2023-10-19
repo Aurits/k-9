@@ -62,6 +62,8 @@ internal fun IncomingServerSettingsContent(
                 Spacer(modifier = Modifier.requiredHeight(MainTheme.sizes.smaller))
             }
 
+
+            if(2>5){
             item {
                 SelectInput(
                     options = IncomingProtocolType.all(),
@@ -189,6 +191,7 @@ internal fun IncomingServerSettingsContent(
                         onCheckedChange = { onEvent(Event.ImapSendClientIdChanged(it)) },
                         contentPadding = defaultItemPadding(),
                     )
+                }
                 }
             }
         }

@@ -26,7 +26,7 @@ fun K9Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit,
 ) {
-    val images = Images(logo = R.drawable.core_ui_theme_k9_logo)
+    val images = Images(logo = R.drawable.logo)
 
     MainTheme(
         lightColorPalette = k9LightColorPalette,

@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:textEndPadding="6sp"
             app:textStartPadding="8sp"
-            tools:chipBackgroundColor="#1976D2"
+            tools:chipBackgroundColor="#18A74E"
             tools:text="Account name" />
 
         <com.fsck.k9.ui.helper.BottomBaselineTextView

@@ -30,7 +30,7 @@ fun TopAppBar(
         modifier = modifier,
         navigationIcon = navigationIcon,
         actions = actions,
-        backgroundColor = MainTheme.colors.toolbar,
+        backgroundColor = MainTheme.colors.success,
     )
 }
 

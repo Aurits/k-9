@@ -5,10 +5,10 @@
     <!-- This should make it easier for forks to change the branding -->
 
     <!-- Used in AndroidManifest.xml -->
-    <string name="app_name">K-9 Mail</string>
+    <string name="app_name">Webmail</string>
 
-    <string name="shortcuts_title">K-9 Accounts</string>
-    <string name="unread_widget_label">K-9 Unread</string>
+    <string name="shortcuts_title">Webmail Accounts</string>
+    <string name="unread_widget_label">Webmail Unread</string>
 
 
     <!-- Used in the about dialog -->
@@ -48,7 +48,7 @@
 
     <string name="authors">Authors</string>
 
-    <string name="about_title">About K-9 Mail</string>
+    <string name="about_title">About Webmail</string>
     <string name="accounts_title">Accounts</string>
     <string name="advanced">Advanced</string>
 
