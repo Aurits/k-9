@@ -160,7 +160,7 @@ class K9Drawer(private val parent: MessageList, savedInstanceState: Bundle?) : K
     }
 
     private fun configureAccountHeader() {
-        headerView.headerBackground = ImageHolder(R.drawable.drawer_header_background)
+        headerView.headerBackground = ImageHolder(R.drawable.drawer_header_backgroung)
 
         headerView.onAccountHeaderListener = { _, profile, _ ->
             val account = (profile as ProfileDrawerItem).tag as Account

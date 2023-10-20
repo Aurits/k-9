@@ -16,6 +16,9 @@ data class Spacings(
     val double: Dp = 16.dp,
     val triple: Dp = 24.dp,
     val quadruple: Dp = 32.dp,
-)
+) {
+    val medium: Dp = 24.dp
+    val large: Dp =32.dp
+}
 
 internal val LocalSpacings = staticCompositionLocalOf { Spacings() }

@@ -25,6 +25,7 @@ dependencies {
 
     implementation(projects.feature.account.common)
     implementation(project(mapOf("path" to ":app:core")))
+    implementation(libs.play.services.mlkit.text.recognition.common)
 
     testImplementation(projects.core.ui.compose.testing)
 }
